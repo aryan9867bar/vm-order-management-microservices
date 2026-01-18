@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  background: #f4f6f9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* Main Layout */
+.container {
   min-height: 100vh;
+  padding: 30px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Card Layout */
+.card {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+.card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.card input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Button */
+.card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background: #0056b3;
+}
+
+/* Orders List */
+.order-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-item {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.order-item strong {
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.order-item span {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Price */
+.price {
+  margin-top: 5px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Empty Text */
+.empty {
+  text-align: center;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card {
+    margin: 15px;
   }
 }
