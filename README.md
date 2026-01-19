@@ -79,7 +79,7 @@ order-management-microservices/
 ## 📄 Assignment Report (PDF)
 A detailed assignment report is included as:
 
-📘 **[Click here to view the Assignment Report](./Aryan Baranwal VCC Assignment 1.pdf)**
+📘 **[Click here to view the Assignment Report](./Aryan%20Baranwal%20VCC%20Assignment%201.pdf)**
 
 It contains:
 - VM setup steps
