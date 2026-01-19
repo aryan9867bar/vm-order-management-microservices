@@ -54,6 +54,16 @@ The system follows a **three-tier architecture**:
    - MySQL server  
    - Stores order-related data  
 
+## 🏗️ Architecture Diagram
+
+<p align="center">
+  <img src="./VM-Architecture.drawio.png" alt="Architecture Diagram" width="700"/>
+</p>
+
+<p align="center">
+  <b>Figure:</b> Three-tier microservice architecture deployed across multiple virtual machines using VirtualBox.
+</p>
+
 ---
 
 ## Testing
